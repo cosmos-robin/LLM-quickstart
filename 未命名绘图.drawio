@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.97 Safari/537.36 Core/1.116.454.400 QQBrowser/13.2.6135.400" version="24.8.4">
+  <diagram name="第 1 页" id="AA2O9CUUdHdYwoBPJeKN">
+    <mxGraphModel dx="1332" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kO3-EmanhIfeloPxAaXM-26" value="应用执行层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="488" y="390" width="672" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="kO3-EmanhIfeloPxAaXM-27" value="AI决策层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="488" y="190" width="672" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="kO3-EmanhIfeloPxAaXM-28" value="用户需求" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="729" y="50" width="125" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="kO3-EmanhIfeloPxAaXM-29" value="AI智能体" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="729" y="120" width="124" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="kO3-EmanhIfeloPxAaXM-30" value="决策制定" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="513" y="253" width="126" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="kO3-EmanhIfeloPxAaXM-31" value="Function Calling" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="708.5" y="195" width="164" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="kO3-EmanhIfeloPxAaXM-32" value="具体函数调用" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="942" y="253" width="157" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="kO3-EmanhIfeloPxAaXM-33" value="Spring AI框架" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="513" y="454" width="155" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="kO3-EmanhIfeloPxAaXM-34" value="调用业务函数" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="720" y="455" width="158" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="kO3-EmanhIfeloPxAaXM-35" value="修改数据库" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="958" y="406" width="141" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="kO3-EmanhIfeloPxAaXM-36" value="更新机票状态" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="958" y="503" width="158" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="kO3-EmanhIfeloPxAaXM-37" value="决策由AI制定" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="260" width="156" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="kO3-EmanhIfeloPxAaXM-38" value="执行由应用完成" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="440" width="160" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="kO3-EmanhIfeloPxAaXM-39" value="" style="curved=1;startArrow=none;endArrow=block;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kO3-EmanhIfeloPxAaXM-28" target="kO3-EmanhIfeloPxAaXM-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="791" y="80" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kO3-EmanhIfeloPxAaXM-40" value="理解需求" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="kO3-EmanhIfeloPxAaXM-29" target="kO3-EmanhIfeloPxAaXM-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="791" y="180" />
+              <mxPoint x="503" y="180" />
+              <mxPoint x="503" y="277" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kO3-EmanhIfeloPxAaXM-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="kO3-EmanhIfeloPxAaXM-30" target="kO3-EmanhIfeloPxAaXM-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kO3-EmanhIfeloPxAaXM-42" value="转换" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="kO3-EmanhIfeloPxAaXM-31" target="kO3-EmanhIfeloPxAaXM-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kO3-EmanhIfeloPxAaXM-43" value="" style="startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="kO3-EmanhIfeloPxAaXM-32" target="kO3-EmanhIfeloPxAaXM-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kO3-EmanhIfeloPxAaXM-44" value="执行" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="kO3-EmanhIfeloPxAaXM-33" target="kO3-EmanhIfeloPxAaXM-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kO3-EmanhIfeloPxAaXM-45" value="1" style="curved=1;startArrow=none;endArrow=block;exitX=0.84;exitY=0;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="kO3-EmanhIfeloPxAaXM-34" target="kO3-EmanhIfeloPxAaXM-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="945" y="429" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kO3-EmanhIfeloPxAaXM-46" value="2" style="curved=1;startArrow=none;endArrow=block;exitX=0.84;exitY=1;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="kO3-EmanhIfeloPxAaXM-34" target="kO3-EmanhIfeloPxAaXM-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="945" y="527" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
